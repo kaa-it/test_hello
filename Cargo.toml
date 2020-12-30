@@ -1,0 +1,16 @@
+[package]
+name = "naive_hashmap"
+version = "0.1.0"
+authors = ["Andrey Kruglov <kruglov.it@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.4.2"
+afl = "*"
+
+[dev-dependencies]
+quickcheck = "0.6"
+criterion = "0.1"
+
